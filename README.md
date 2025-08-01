@@ -6,7 +6,7 @@
 
 > Một trình biên dịch cơ bản cho một tập con của ngôn ngữ C, được xây dựng bằng Python. Dự án này chuyển đổi mã nguồn C thành tệp thực thi x86-64 trên môi trường Linux.
 
-Đây là đồ án cuối kỳ môn học "Lập trình hệ thống" tại Trường Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE).
+Đây là đồ án môn học "Lập trình hệ thống" tại Trường Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE).
 
 ---
 
@@ -146,5 +146,5 @@ Trình biên dịch này được xây dựng cho mục đích học tập và c
 
 ## ✍️ Tác giả
 
--   **Nguyễn Minh Tâm** - `22162039`
+-   **Nguyễn Minh Tâm**
 -   GitHub: [YShin044](https://github.com/YShin044)
