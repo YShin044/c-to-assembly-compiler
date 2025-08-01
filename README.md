@@ -20,7 +20,7 @@
     -   Câu lệnh `return` trong hàm `main`.
 -   **Sinh mã Hợp ngữ x86-64:** Tự động tạo mã assembly tương thích với cú pháp của NASM.
 -   **Tự động hóa Build:** Tự động gọi `nasm` và `gcc` để tạo tệp thực thi cuối cùng.
--   **Giao diện đồ họa (GUI):** Tích hợp giao diện đơn giản bằng Tkinter để soạn thảo, mở tệp và biên dịch.
+-   **Giao diện đồ họa (GUI):** Tích hợp giao diện đơn giản để soạn thảo, mở tệp và biên dịch.
 
 ## 🏗️ Kiến trúc Trình biên dịch
 
@@ -87,13 +87,14 @@ v (Sử dụng nasm & gcc)
         3.  Sử dụng `gcc` để liên kết (link) `output.o` và tạo tệp thực thi `output`.
 
 ## 📁 Cấu trúc thư mục
-'''bash
+
+```bash
 sourcecode/
 ├── 📜 compiler.py # Lõi của trình biên dịch (Lexer, Parser, Code Generator)
 ├── 🎨 code_editer.py # Giao diện người dùng (Tkinter)
 ├── 📖 grammar.md # Mô tả cú pháp C được hỗ trợ
 └── 🧪 program.c # Tệp mã nguồn C mẫu để kiểm thử
-'''
+```
 
 ## 📝 Ví dụ mã nguồn C
 
@@ -132,7 +133,7 @@ int main() {
 ```
 ## ⚠️ Hạn chế
 
-Trình biên dịch này được xây dựng cho mục đích học tập và có một số hạn chế:
+Trình biên dịch này được xây dựng thủ công với mục đích học tập nên vẫn còn một số hạn chế:
 -   Chỉ hỗ trợ hàm `main`, không hỗ trợ hàm do người dùng định nghĩa.
 -   Chưa hỗ trợ vòng lặp (`for`, `while`).
 -   Chưa hỗ trợ các kiểu dữ liệu phức tạp như con trỏ, mảng, `struct`.
