@@ -87,19 +87,14 @@ v (Sử dụng nasm & gcc)
         3.  Sử dụng `gcc` để liên kết (link) `output.o` và tạo tệp thực thi `output`.
 
 ## 📁 Cấu trúc thư mục
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
-
+'''bash
 sourcecode/
 ├── 📜 compiler.py # Lõi của trình biên dịch (Lexer, Parser, Code Generator)
 ├── 🎨 code_editer.py # Giao diện người dùng (Tkinter)
 ├── 📖 grammar.md # Mô tả cú pháp C được hỗ trợ
 └── 🧪 program.c # Tệp mã nguồn C mẫu để kiểm thử
+'''
 
-Generated code
 ## 📝 Ví dụ mã nguồn C
 
 Đoạn mã dưới đây minh họa các tính năng mà trình biên dịch hiện đang hỗ trợ.
