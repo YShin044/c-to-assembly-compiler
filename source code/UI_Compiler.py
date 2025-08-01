@@ -50,7 +50,7 @@ class CodeEditor:
         # Thanh nút
         button_frame = tk.Frame(self.main_frame)
         button_frame.pack(fill="x", pady=5)
-        tk.Button(button_frame, text="Run Code", command=self.run_code).pack(side="left", padx=5)
+        tk.Button(button_frame, text="Compile", command=self.run_code).pack(side="left", padx=5)
         tk.Button(button_frame, text="Clear Console", command=self.clear_console).pack(side="left", padx=5)
         
         # Thanh trạng thái
